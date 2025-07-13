@@ -10,17 +10,20 @@
 
     </p>
 
-    <h2>What I have learn so far in codingBN Cohort 3:</h2>
+    <div class="highlight-box">
+      <h2>What I have learn so far in codingBN Cohort 3:</h2>
     <ul>
       <li>HTML & CSS for structure and styling</li>
       <li>JavaScript for making websites interactive</li>
       <li>Vue.js for building dynamic applications</li>
       <li>Vue Router for navigation (like this website!)</li>
     </ul>
+    </div>
+    
 
     <div class="highlight-box">
       <p>
-        <strong>Skills in programming:</strong>
+        <strong>Areas of Expertise:</strong>
       </p>
       <ul>
         <li>Android App development using Android studio</li>
@@ -29,7 +32,7 @@
       </ul>
       <hr />
       <p>
-        <strong>Programming language:</strong>
+        <strong>Programming languages:</strong>
         <ul>
         <li>Java</li>
         <li>Javascript</li>

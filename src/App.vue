@@ -4,6 +4,7 @@ import { ref, onMounted } from "vue";
 
 import lightWallpaper from "./assets/light_wallpaper.jpg";
 import darkWallpaper from "./assets/dark_wallpaper.jpg";
+import logo from "./assets/logo_z.png";
 
 const darkMode = ref(false);
 
@@ -26,13 +27,16 @@ onMounted(() => {
   <div>
     <div>
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/projects">Projects</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
-        <button class="toggle-btn" @click="toggleBackground">
-          {{ darkMode ? "Light Wallpaper" : "Dark Wallpaper" }}
-        </button>
+        <img :src="logo" alt="Logo" class="nav-logo" />
+        <div class="nav-links">
+          <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/about">About</RouterLink>
+          <RouterLink to="/projects">Projects</RouterLink>
+          <RouterLink to="/contact">Contact</RouterLink>
+          <button class="toggle-btn" @click="toggleBackground">
+            {{ darkMode ? "Light Wallpaper" : "Dark Wallpaper" }}
+          </button>
+        </div>
       </nav>
     </div>
     <!-- Navigation that stays the same on all pages -->
@@ -68,12 +72,23 @@ body {
 }
 
 nav {
-  background: #0915a0;
+  background: rgba(9, 21, 160, 0.7);
   padding: 1rem;
-  text-align: right;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between; /* logo left, nav right */
+  gap: 10px;
+}
+
+.nav-logo {
+  height: 40px;
+  margin-right: 24px;
+  vertical-align: middle;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
   gap: 10px;
 }
 
@@ -83,6 +98,10 @@ nav a {
   margin-right: 10px;
   padding: 10px 15px;
   border-radius: 5px;
+}
+
+nav a:last-child {
+  margin-right: 0;
 }
 
 nav a:hover {

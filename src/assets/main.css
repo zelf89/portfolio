@@ -50,10 +50,23 @@ nav a:hover {
 }
 
 .highlight-box {
+  max-height: 500px;
   background: #e8f5e8;
   padding: 20px;
   border-radius: 5px;
   margin: 20px 0;
+}
+
+.image-box {
+  text-align: center;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0002;
 }
 
 /* Make the current page link look different */
