@@ -4,8 +4,8 @@ import AboutView from "../pages/AboutView.vue";
 import ProjectsView from "../pages/ProjectsView.vue";
 import ContactView from "../pages/ContactView.vue";
 import NotFoundView from "../pages/NotFoundView.vue";
-import Posts from "@/components/Posts.vue";
-import PostDetail from "@/components/PostDetail.vue";
+import Posts from "@/pages/page_post/Posts.vue";
+import PostDetail from "@/pages/page_post/PostDetail.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
