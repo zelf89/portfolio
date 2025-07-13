@@ -17,7 +17,7 @@ import SimpleCounter from "@/components/SimpleCounter.vue";
 
     <div class="highlight-box" @click="$router.push('/posts')" style="cursor: pointer">
       <h3>Post Directory</h3>
-      <p>This page implements API calls GET,POST and filter function.</p>
+      <p>This page implements API calls GET,POST,PUT and filter function.</p>
       <h2 class="highlight-text">This section can be click.</h2>
     </div>
 
