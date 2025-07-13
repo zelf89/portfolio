@@ -6,13 +6,11 @@
   <div>
     <h1>About Me 👋</h1>
     <p>
-      I'm a former student from UTB, currently joining codingBN cohort 3 in
-      Brunei Darussalam. I'm very interested in coding in general so being
-      selected to be in this program i feel very blessed and excited to learn
-      more about coding and web development.
+     I'm a former student from UTB and have worked in the IT industry as an Android app developer for almost 6 years. Currently, I'm joining CodingBN Cohort 3 in Brunei Darussalam. I am very interested in coding in general, so being selected for this program makes me feel blessed and excited to learn more about coding and web development.
+
     </p>
 
-    <h2>What I have learn so far!:</h2>
+    <h2>What I have learn so far in codingBN Cohort 3:</h2>
     <ul>
       <li>HTML & CSS for structure and styling</li>
       <li>JavaScript for making websites interactive</li>

@@ -28,7 +28,7 @@ function sendMessage() {
 
     <div class="highlight-box">
       <p><strong>Email:</strong> zelf89@gmail.com</p>
-      <p><strong>GitHub:</strong> https://github.com/zelf89/portfolio</p>
+      <p><strong>GitHub:</strong> https://github.com/zelf89</p>
     </div>
 
     <h2>Send me a message:</h2>
