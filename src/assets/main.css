@@ -12,28 +12,6 @@ body {
   min-height: 100dvh;
 }
 
-nav {
-  background: #4caf50;
-  padding: 1rem;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin-right: 20px;
-  padding: 10px 15px;
-  border-radius: 5px;
-}
-
-nav a:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.router-link-active {
-  background: rgba(255, 255, 255, 0.3);
-  font-weight: bold;
-}
-
 .content {
   padding: 2rem;
 }
@@ -67,10 +45,4 @@ nav a:hover {
   display: inline-block;
   border-radius: 8px;
   box-shadow: 0 2px 8px #0002;
-}
-
-/* Make the current page link look different */
-.router-link-active {
-  color: red;
-  font-weight: bold;
 }

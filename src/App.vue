@@ -29,10 +29,10 @@ onMounted(() => {
       <nav>
         <img :src="logo" alt="Logo" class="nav-logo" />
         <div class="nav-links">
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
-          <RouterLink to="/projects">Projects</RouterLink>
-          <RouterLink to="/contact">Contact</RouterLink>
+          <RouterLink to="/" class="nav-link">Home</RouterLink>
+          <RouterLink to="/about" class="nav-link">About</RouterLink>
+          <RouterLink to="/projects" class="nav-link">Projects</RouterLink>
+          <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
           <button class="toggle-btn" @click="toggleBackground">
             {{ darkMode ? "Light Mode" : "Dark Mode" }}
           </button>
@@ -108,6 +108,17 @@ nav a:hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
+.router-link {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  transition: background 0.3s;
+}
+
+.router-link:hover {
+  background-color: lightblue;
+}
 .router-link-active {
   background: rgba(255, 255, 255, 0.3);
   color: rgb(255, 251, 0);
