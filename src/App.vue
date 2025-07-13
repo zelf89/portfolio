@@ -34,7 +34,7 @@ onMounted(() => {
           <RouterLink to="/projects">Projects</RouterLink>
           <RouterLink to="/contact">Contact</RouterLink>
           <button class="toggle-btn" @click="toggleBackground">
-            {{ darkMode ? "Light Wallpaper" : "Dark Wallpaper" }}
+            {{ darkMode ? "Light Mode" : "Dark Mode" }}
           </button>
         </div>
       </nav>
