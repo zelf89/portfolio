@@ -1,5 +1,6 @@
 <script setup>
 import Todo from "../components/Todo.vue";
+import SimpleCounter from "@/components/SimpleCounter.vue";
 </script>
 
 <template>
@@ -10,8 +11,7 @@ import Todo from "../components/Todo.vue";
     <div class="highlight-box">
       <h3>🌟 This Website</h3>
       <p>
-        My first project using Vue Router to create multiple pages in a
-        single-page application.
+        My first project using Vue Router to create multiple pages in a single-page application.
       </p>
     </div>
 
@@ -23,11 +23,15 @@ import Todo from "../components/Todo.vue";
     </div>
 
     <div class="highlight-box">
+      <h3>👨‍🏫 Simple Counter App</h3>
+      <p>A simple app to count number.</p>
+
+      <SimpleCounter />
+    </div>
+
+    <div class="highlight-box">
       <h3>🚀 Vue + Vite Migration</h3>
-      <p>
-        Successfully converted from a single HTML file to a modern Vue 3 + Vite
-        project!
-      </p>
+      <p>Successfully converted from a single HTML file to a modern Vue 3 + Vite project!</p>
     </div>
   </div>
 </template>

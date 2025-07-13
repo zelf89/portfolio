@@ -28,18 +28,14 @@ function sendMessage() {
 
     <div class="highlight-box">
       <p><strong>Email:</strong> zelf89@gmail.com</p>
-      <p><strong>GitHub:</strong> still pending...</p>
+      <p><strong>GitHub:</strong> https://github.com/zelf89/portfolio</p>
     </div>
 
     <h2>Send me a message:</h2>
     <form @submit.prevent="sendMessage">
       <p>
         <label>Your Name:</label><br />
-        <input
-          type="text"
-          v-model="name"
-          style="width: 100%; padding: 8px; margin-top: 5px"
-        />
+        <input type="text" v-model="name" style="width: 100%; padding: 8px; margin-top: 5px" />
       </p>
       <p>
         <label>Your Message:</label><br />
@@ -64,10 +60,7 @@ function sendMessage() {
     </form>
 
     <div v-if="sent" class="highlight-box" style="margin-top: 20px">
-      <p>
-        ✅ Thanks for your message! (This is just a demo, so it wasn't actually
-        sent.)
-      </p>
+      <p>✅ Thanks for your message! (This is just a demo, so it wasn't actually sent.)</p>
     </div>
   </div>
 </template>

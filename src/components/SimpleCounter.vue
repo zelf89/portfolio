@@ -1,9 +1,9 @@
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 // Reactive data - like data() but simpler
 const count = ref(0);
-const message = ref('Click the button!');
+const message = ref("Click the button!");
 
 // Methods - just regular functions
 function increment() {
@@ -13,7 +13,7 @@ function increment() {
 
 function reset() {
   count.value = 0;
-  message.value = 'Click the button!';
+  message.value = "Click the button!";
 }
 </script>
 
@@ -34,7 +34,7 @@ function reset() {
 .counter {
   text-align: center;
   padding: 30px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #143ced 0%, #310b56 100%);
   border-radius: 15px;
   color: white;
   max-width: 400px;
@@ -44,6 +44,7 @@ function reset() {
 .message {
   font-size: 1.2em;
   margin: 20px 0;
+  color: white;
 }
 
 .count-display {
@@ -75,12 +76,12 @@ function reset() {
 }
 
 .btn-primary {
-  background: #ff6b6b;
+  background: #12e30e;
   color: white;
 }
 
 .btn-secondary {
-  background: #4ecdc4;
+  background: #d51111;
   color: white;
 }
 </style>
